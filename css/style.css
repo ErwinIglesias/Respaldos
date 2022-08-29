@@ -245,7 +245,7 @@ nav ul li a {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #38610B; }
+  background-color: #fcf5f9; }
   /* #38610B */
 
 .redes {
@@ -390,6 +390,7 @@ textarea {
   justify-content: center; }
 
 @media only screen and (max-width: 1023px) {
+
   .header {
     border-bottom: 0px; }
   .flexLogo {
@@ -405,7 +406,7 @@ textarea {
     font-size: 25px;
     text-align: center; }
   .colLogo {
-    margin-top: 10px;
+    background-color: #fcf5f9;
     justify-content: center;
     padding-right: 50px; }
   .bottonPosition {
@@ -600,21 +601,6 @@ textarea {
 
   .horarios{
     font-size: 14px;
-  }
-
-  .quienesSomos{
-    position: relative;
-    left: 10px;
-    margin-top: 10px;
-  }
-
-  .pQuienesSomos{
-    position: relative;
-    right: 20px;
-  }
-
-  .inicioColor, .tragosColor, .milanesasColor, .hamburguesasColor, .bebidasColor{
-    color: black;
   }
 
 /* RESPALDOS */
