@@ -652,3 +652,17 @@ footer{
   width: 100px;
   height: 100px;
 }
+
+.inicioColor, .ecocueroColor, .chenilleColor{
+  color: red;
+}
+
+.containerRespaldos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanRespaldos, .navbar-toggler {
+  padding: 4px;
+}
