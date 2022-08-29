@@ -1,0 +1,623 @@
+$fontTituloMobile: 25px;
+$fontTituloDescVehiculo: 20px;
+$bordesVehiculos: 1px solid black;
+$marginTop: 50px;
+$top10px: 10px;
+
+* {
+    margin:0;
+    padding:0;
+  }
+
+  nav ul li{
+    margin-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+} 
+
+.logo{
+    width: 100px;
+}
+
+.navbar-nav{
+    background-color: none;
+}
+
+.flexLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.bottonPosition{
+    margin-left: 50px;
+}
+
+.titulo{
+    padding-left: 50px;
+}
+
+.header{
+    border-bottom: 1px solid black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+ }
+
+  .lineaNav{
+      border-bottom: 1px solid grey;
+  }
+
+.navegador{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.borde{
+    position: relative;
+    margin-top: 30px;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.bordeTitulo{
+    display: flex;
+    position: relative;
+    left: 120px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ .container-fluid{
+    overflow: hidden;
+}
+
+.colTitulo{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contenedorAutos{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+}
+
+.flexContenedorAutos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.imagenContenedor{
+    overflow: hidden;
+}
+
+.anchoImagenContenedor{
+    width: 100%;
+}
+
+.centrarTitulo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.textoContenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.paddingBottom{
+    margin-bottom: 10px;
+}
+
+.flexQuienes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.quienesSomos{
+    width: 150px;
+    font-size: 35px;
+}
+
+.linea{
+    border-right: 2px solid red;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.pQuienesSomos{
+    margin: 0;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+ .anchoCarousel{
+      width: 1200px;
+ }
+
+ .anchoImagenCarousel{ 
+    width: 500px;
+}
+
+.flexCarousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.marginAutos{
+    margin-top: 50px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.anchoContacto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.botonesContacto{
+    width: 600px;
+    margin-top: 50px;
+}
+
+.tituloContacto{
+    text-align: center;
+}
+
+.linea{
+    color: red;
+}
+
+.flexBotones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.achicarBotones{
+    width: 400px;
+}
+
+.centrarBotones{
+    display: flex;
+    justify-content: center;
+}
+
+.botonEnviar{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.bordeBotones{
+    border-radius: 10px;
+}
+
+.nuestrosVehiculos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.titulodescVehiculo{
+    font-size: $fontTituloDescVehiculo;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.descVehiculo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.descVehiculo, .titulodescVehiculo{
+    margin-right: 20px;
+}
+
+.contenido{
+    padding-right: 40px;
+}
+
+.audi{
+    height: 300px;
+    border: $bordesVehiculos;
+    border-radius: 10px;
+}
+
+.centrarAudi, .centrarPorsche, .centrarBugatti{
+    display: flex;
+    justify-content: center;
+}
+
+.porsche911{
+    height: 240px;
+    border: $bordesVehiculos;
+    border-radius: 10px;
+}
+
+.bugatti{
+    height: 250px;
+    border: $bordesVehiculos;
+    border-radius: 10px;
+}
+
+.botonesContacto{
+    height: 620px;
+}
+
+
+
+.tituloOfertas{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ofertas{
+    margin: 0;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+}
+
+.achicarSelect{
+    width: 250px;
+}
+
+.marginVehiculos{
+    margin-bottom: 10px;
+}
+
+.submitCentrar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.marginTopSubmit{
+    margin-top: 15px;
+}
+
+.facebook{
+    height: 40px;
+    position: relative;
+}
+
+.instagram, .twitter {
+    @extend .facebook;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-image: linear-gradient(to left,rgb(207, 163, 40),red);
+}
+
+.redes {
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+textarea{
+    resize: none;
+}
+
+.flexRedes{
+    position: relative;
+    left: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.flexDerechos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIdeal{ 
+    font-size: 20px;
+    align-items: center;
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    width: 300px;
+}
+
+.redesTitulo{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.logearse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tenesCuenta{
+    margin-top: 10px;
+}
+
+.instagram:hover{
+    transform: scale(2);
+}
+
+.facebook:hover{
+    transform: scale(2);
+}
+
+.twitter:hover{
+    transform: scale(2);
+}
+
+.containerOnix{
+    display: flex;
+    justify-content: center;
+}   
+
+.onix{
+   position: relative;
+   height: 300px;
+   width: 500px;
+   border: 1px solid black;
+   border-radius: 10px;
+   }
+
+.marcasVehiculos{
+   display: flex;
+   flex-direction: column;
+   margin-top:50px;
+   align-items: center;
+}
+
+.selectVehiculos{
+   width: 100px;
+}
+
+.flexImagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.bmw, .maserati{
+    width: 300px;
+    border: $bordesVehiculos;
+    margin-top: 40px;
+}
+
+
+.numero{
+    margin-top: $top10px - 5;
+}
+
+.contenedor-formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    height: 800px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.modificar-control{
+    padding-left: 10px;
+}
+
+.marginEmail{
+    margin-top:$marginTop - 40;
+}
+
+.marginDescVehiculo{
+    margin-top:$marginTop/2;
+}
+
+.formContacto{
+    display: flex;
+    justify-content: center;
+    margin-top: $marginTop;
+}
+
+.nombreApellido{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: $top10px + 10;
+}
+
+.paddingControl{
+    padding-right: 10px;
+}
+
+
+.descripcionAuto{
+    margin-top: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.marcas{
+    margin-top: 5px;
+}
+
+.probandoRedes{
+    display: flex;
+}
+
+.card-img-top{
+    height: 180px;
+}
+
+
+.centrarCard{
+    width: 100px;
+    align-content: center;
+}
+
+.card-title, .card-text, .btn-primary{
+    text-align: center;
+}
+
+.btn-primary{
+    position: relative;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:767px){
+    .header{
+        border-bottom: 0px;
+    }
+
+    .flexLogo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+
+    .achicarBordes{
+        width: 99%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .titulo{
+        font-size: $fontTituloMobile;
+        text-align: center;
+    }
+    
+    .colLogo{
+        margin-top: 10px;
+        justify-content: center;
+        padding-right: 50px;
+    }
+
+    .logo{
+        margin-left: 50px;
+    }
+
+    .bottonPosition{
+        justify-content: flex-end;
+    }
+
+    nav ul a{
+        font-size: 15px;
+    }
+
+    .navbar-nav{
+        text-align:right;
+    }
+   
+    .descVehiculo, .titulodescVehiculo{
+        margin: 20px;
+    }
+
+    .paddingAutos{
+        padding-right:40px;
+        padding-left:40px;
+    }
+
+    .descVehiculo{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin:10px;
+    }
+    
+    .facebook{
+        height: 30px;
+        padding-left: 15px;
+    }
+
+    .footerIdeal{
+        font-size: 20px;
+        margin-bottom: 43px;
+    }
+
+    .derechos{
+        display: none;
+        font-size: 12px;
+    }
+
+    .flexDerechos{
+        justify-content: center;
+    }
+
+    .redesTitulo{
+        display: none;
+    }
+
+    .flexRedes{
+        position: relative;
+        left: 30px;
+        width: 100px;
+        margin: 0px;
+        bottom: 20px;
+        justify-content: space-around;
+    }
+    
+    .probandoRedes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tenesCuenta{
+        font-size: 20px;
+    }
+
+    .ingresarFooter{
+        font-size: 12px;
+    }
+
+    .registrarseFooter{
+        font-size: 12px;
+    }
+}
+
+
