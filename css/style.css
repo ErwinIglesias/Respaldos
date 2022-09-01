@@ -640,7 +640,8 @@ footer{
 }
 
 .inicioColor, .ecocueroColor, .chenilleColor{
-  color: red;
+  color: black;
+  font-weight: bold;
 }
 
 .containerRespaldos{
@@ -651,4 +652,8 @@ footer{
 
 .spanRespaldos, .navbar-toggler {
   padding: 4px;
+}
+
+.navbar-dark:hover .navbar-toggler:hover {
+  background-color: grey;
 }
