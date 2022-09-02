@@ -245,8 +245,8 @@ nav ul li a {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #fcf5f9; }
-  /* #38610B */
+  background-color: #96A1B5 ; }
+  /* #38610B, #8E9AAF */
 
 .redes {
   display: flex;
@@ -406,7 +406,7 @@ textarea {
     font-size: 25px;
     text-align: center; }
   .colLogo {
-    background-color: #fcf5f9;
+    background-color: #96A1B5;
     justify-content: center;
     padding-right: 50px; }
   .bottonPosition {
@@ -543,7 +543,7 @@ textarea {
       padding-top: 8px;
       padding-bottom: 8px;
       margin-top: 15px;
-      background-color: white!important;
+      background-color: #fcf5f9!important;
   }
 
   .nav-item.dropdown{
@@ -582,7 +582,7 @@ textarea {
   }
 
   body{
-    background-color: white;
+    background-color: #fcf5f9;
     /*  #FCF3CF  */
   }
 
