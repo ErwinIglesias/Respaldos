@@ -606,6 +606,7 @@ textarea {
 /* RESPALDOS */
 
 .navRespaldos{
+  background-color: #fcf5f9;
   justify-content: center;
 }
 
@@ -618,7 +619,7 @@ textarea {
   color: black;
 }
 .navbar-dark .navbar-toggler {
-  /* border-color: black; */
+  /* border-color: #; */
 }
 
 .ventasMayor{
@@ -655,5 +656,6 @@ footer{
 }
 
 .navbar-dark:hover .navbar-toggler:hover {
+  border-color: #fcf5f9;
   background-color: #fcf5f9;
 }
