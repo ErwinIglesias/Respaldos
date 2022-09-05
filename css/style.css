@@ -245,7 +245,7 @@ nav ul li a {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #B8C2D6 ; }
+  background-color: #b8c3d9 ; }
   /* #38610B, #8E9AAF */
 
 .redes {
@@ -582,7 +582,7 @@ textarea {
   }
 
   body{
-    background-color: #FAF6F8;
+    background-color: #fcf5f9;
     /*  #FCF3CF  */
   }
 
@@ -618,7 +618,7 @@ textarea {
   color: black;
 }
 .navbar-dark .navbar-toggler {
-  border-color: black;
+  /* border-color: black; */
 }
 
 .ventasMayor{
